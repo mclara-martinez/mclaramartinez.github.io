@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>DoceProjects</title>
+  <script>
+    // Redirect props.doceprojects.com → prop.doceprojects.com
+    if (window.location.hostname === 'props.doceprojects.com') {
+      window.location.replace('https://prop.doceprojects.com' + window.location.pathname);
+    }
+  </script>
+  <style>
+    body { font-family: system-ui; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #1a1a1a; color: #f0ede8; }
+    .box { text-align: center; }
+    a { color: #00a86b; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>404</h1>
+    <p>Esta propuesta no existe o fue movida.</p>
+    <p><a href="/">Volver al inicio</a></p>
+  </div>
+</body>
+</html>
